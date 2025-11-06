@@ -1,5 +1,6 @@
 from playwright.sync_api import Page
 
+# Login page POM
 class LoginPage:
     # Initialise and create instance attributes
     def __init__(self, page: Page, base_url):
